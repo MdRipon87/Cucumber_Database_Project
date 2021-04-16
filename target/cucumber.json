@@ -1,0 +1,108 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 595444000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "on the Techfios login page",
+            "match": {
+              "location": "LoginStep.on_the_Techfios_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4225722400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginStep.beforeRun()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "valid use should able to login with valid credentials",
+        "description": "",
+        "id": "varify-the-techfios-login;valid-use-should-able-to-login-with-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1417496000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "enters username",
+            "match": {
+              "location": "LoginStep.enters_username()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 117653200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "enters password",
+            "match": {
+              "location": "LoginStep.enters_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5065730000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "clicks on login",
+            "match": {
+              "location": "LoginStep.clicks_on_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7575500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "should be on dashboard",
+            "match": {
+              "location": "LoginStep.should_be_on_dashboard()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Varify the Techfios login",
+    "description": "",
+    "id": "varify-the-techfios-login",
+    "keyword": "Feature",
+    "uri": "features/Login.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Smoke"
+      }
+    ]
+  }
+]
